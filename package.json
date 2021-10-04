@@ -9,7 +9,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "commit": "cz"
+    "cm": "cz"
   },
   "husky": {
     "hooks": {
@@ -17,10 +17,11 @@
     }
   },
   "dependencies": {
-    "commitizen": "^4.2.4",
     "husky": "^7.0.2"
   },
   "devDependencies": {
-    "cz-conventional-changelog": "3.3.0"
+    "commitizen": "4.2.4",
+    "cz-conventional-changelog": "3.3.0",
+    "init": "0.1.2"
   }
 }
